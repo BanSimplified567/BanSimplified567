@@ -195,12 +195,14 @@
   </a>
     <a href="https://wakatime.com/@BanBan" target="_blank">
   <img src="https://github-readme-stats.vercel.app/api?username=BanSimplified567&theme=radical&show_icons=true&count_private=true" width="49%" alt="stats graph" /></a>
+     <img src="https://github-readme-activity-graph.vercel.app/graph?username=BanSimplified567&custom_title=BanSimplified567's%20GitHub%20Activity%20Graph&bg_color=141321&color=A9FEF7&line=626069&point=F8D847&area_color=FE428E&title_color=FE428E&area=true" alt="BanSimplified567's Github Activity Graph" width="48%">
     <a href="https://wakatime.com/@BanBan" target="_blank">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BanSimplified567&theme=radical&langs_count=10&card_width=540&layout=compact" alt="Most used languages" width="48%"></a>  <a href="https://wakatime.com"><img src="https://wakatime.com/share/@BanBan/382532ff-5057-45a2-b975-14ab938e7e7c.png" align="left" width="48%"/></a>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BanSimplified567&theme=radical&langs_count=10&card_width=540&layout=compact" alt="Most used languages" width="48%"></a>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BanSimplified567&custom_title=BanSimplified567's%20GitHub%20Activity%20Graph&bg_color=141321&color=A9FEF7&line=626069&point=F8D847&area_color=FE428E&title_color=FE428E&area=true" alt="BanSimplified567's Github Activity Graph" width="100%">
+
+   <a href="https://wakatime.com"><img src="https://wakatime.com/share/@BanBan/382532ff-5057-45a2-b975-14ab938e7e7c.png" align="left" width="100%"/></a>
 </div>
 
 <img src="./src/components/img/assets/animated-flame-01.gif" width="16px" align="left"/>
