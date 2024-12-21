@@ -189,8 +189,7 @@
   <img src="https://github-profile-trophy.vercel.app/?username=BanSimplified567&theme=radical&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy" align="middle" />
    <a href="https://wakatime.com/@BanBan" target="_blank">
       <img src="https://github-readme-stats.vercel.app/api/wakatime?username=BanBan&theme=radical&layout=compact" alt="Wakatime Coding Time" width="1024px">
-  </a>
-  <a href="https://wakatime.com/@BanBan" target="_blank">
+  </a><a href="https://wakatime.com/@BanBan" target="_blank">
   <img src="https://streak-stats.demolab.com?user=BanSimplified567&theme=radical" width="50%" alt="streaks graph" />
   </a>
     <a href="https://wakatime.com/@BanBan" target="_blank">
