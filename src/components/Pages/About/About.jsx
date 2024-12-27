@@ -23,9 +23,9 @@ const About = () => {
                   growth. I eagerly explore new technologies and embrace challenges that expand my
                   skills.
                   <a
-                     href="./Blacklion567.pdf"
+                     href="./Bringcolajadeivan,V.pdf"
                      className="aboutResume"
-                     download="Blacklion567.pdf"
+                     download="Bringcolajadeivan,V.pdf"
                      title="Welcome Back"
                   >
                      Download Resume
