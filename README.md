@@ -33,7 +33,7 @@
 
 - ☕ Interest: Coffee, Learning and Coding. <br><br>
 - <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" height="16px"/> Hobbies: Drawing, Reading, Anime, Manga, Manhua, Manhwa, and Facebook. <br><br>
-- 📄 MY RESUME: <a href="./src/components/Pages/About/Blacklion567.jpg" download="Blacklion567.jpg">Download</a>
+- 📄 MY RESUME: <a href="./src/components/Pages/About/Bringcolajadeivan,V.pdf" download="Bringcolajadeivan,V.pdf">Download</a>
 
 <h2></h2>
 
