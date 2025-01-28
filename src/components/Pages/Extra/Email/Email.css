@@ -12,6 +12,7 @@
 @media screen and (max-width: 1024px) {
   .emailFormSection {
     flex-wrap: wrap;
+    padding: 5rem;
   }
 }
 
@@ -35,6 +36,12 @@
   aspect-ratio: 1/1;
   width: 20rem;
   border-radius: 50px;
+}
+@media screen and (max-width: 1024px) {
+  .emailImage {
+    width: 100%;
+    height: 20rem;
+  }
 }
 
 .emailContainerInput {

@@ -1,16 +1,15 @@
-import { Link } from 'react-router-dom';
-import './Footer.css';
 import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
+import { Link, useLocation } from 'react-router-dom';
+import './Footer.css';
 
 // Import images
-import Linkedin from '../../../img/logos/neon-linkedin.png';
+import flamesBorder from '../../../img/assets/borderseparator.gif';
 import Facebook from '../../../img/logos/neon-facebook.png';
 import Instagram from '../../../img/logos/neon-instagram.png';
-import Messenger from '../../../img/logos/neon-twitter.png';
+import Linkedin from '../../../img/logos/neon-linkedin.png';
 import Tiktok from '../../../img/logos/neon-tiktok.png';
+import Messenger from '../../../img/logos/neon-twitter.png';
 import Youtube from '../../../img/logos/neon-youtube.png';
-import flamesBorder from '../../../img/assets/borderseparator.gif';
 
 function Footer() {
    return (
@@ -27,7 +26,7 @@ function Footer() {
                   text="Activities"
                />
                <FooterLink to="/portfolio" title="See our portfolio" text="Portfolio" />
-               <FooterLink to="/skills" title="What skills I acquired " text="Skills" />
+               <FooterLink to="/skills" title="What skills I acquired" text="Skills" />
             </nav>
          </div>
          <img src={flamesBorder} className="flamesBorder" alt="flamesBorder" />
@@ -79,8 +78,14 @@ function Footer() {
 
 // FooterLink component for navigation links
 function FooterLink({ to, title, text }) {
+   const location = useLocation();
+
+   const getLinkStyle = (path) => {
+      return location.pathname === path ? { color: '#FF3399' } : { color: '#fefefe' };
+   };
+
    return (
-      <Link className="navbarLinks" to={to} title={title}>
+      <Link className="navbarLinks" to={to} title={title} style={getLinkStyle(to)}>
          {text}
       </Link>
    );
@@ -89,9 +94,9 @@ function FooterLink({ to, title, text }) {
 // SocialLink component for social media icons
 function SocialLink({ url, imgSrc, alt }) {
    return (
-      <Link to={url}>
+      <a href={url} target="_blank" rel="noopener noreferrer">
          <img src={imgSrc} alt={alt} width="30px" />
-      </Link>
+      </a>
    );
 }
 
