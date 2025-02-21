@@ -38,10 +38,6 @@
     /* Adjust line-height for smaller screens */
   }
 
-  .homeLinkSectionContainer {
-    width: 80vw;
-    /* Adjusted width for very small screens */
-  }
 
   .homeLinkContainer {
     width: 15rem;
@@ -74,9 +70,6 @@
   max-width: 25rem;
 }
 
-.contactContactMe {
-  padding: 5rem;
-}
 
 .contactNavLink {
   display: flex;
@@ -91,20 +84,18 @@
 
 .homeLinkSectionContainer {
   display: flex;
-  overflow: hidden;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  object-fit: contain;
+  padding: 2rem;
 }
 
 .homeSectionOne,
-.homeLinkSectionContainer,
 .homeLinkContainer {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 2rem;
   box-sizing: border-box;
@@ -112,23 +103,17 @@
 }
 
 .homeLinkContainer {
-  display: flex;
   padding: 1rem;
-  width: 25rem;
-  height: 12.5rem;
-  box-sizing: border-box;
-  justify-content: center;
-  align-items: center;
   border-radius: 10px;
+  min-width: 100%;
   overflow: hidden;
   background-color: var(--background-button-blue);
   transition: all 0.3s ease-in-out;
-  object-fit: cover;
+  box-shadow: none;
 }
 
 /* Hover effect for the specific container being hovered */
 .homeLinkContainer:hover {
-  width: 30rem;
   box-shadow: 0 0 10px var(--background-button-violet);
   background: linear-gradient(to right,
       var(--background-button-violet),
@@ -138,36 +123,6 @@
   animation: slide 5s linear infinite;
 }
 
-/* Preventing hover effect from affecting other containers */
-.homeLinkContainer:not(:hover) {
-  width: 25rem;
-  box-shadow: none;
-  background-color: var(--background-button-blue);
-  transition: all 0.3s ease-in-out;
-}
-
-/* Adjust size for different screen sizes while keeping the rectangle shape */
-@media screen and (max-width: 1024px) {
-  .homeLinkContainer {
-    width: 20rem;
-    height: 10rem;
-  }
-
-}
-
-@media screen and (max-width: 768px) {
-  .homeLinkContainer {
-    width: 18rem;
-    height: 9rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .homeLinkContainer {
-    width: 16rem;
-    height: 8rem;
-  }
-}
 
 @keyframes slide {
   0% {

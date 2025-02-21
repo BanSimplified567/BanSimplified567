@@ -228,6 +228,8 @@
 ## Tech Stacks
 - FrontEnd Developer (Aspiring FrontEnd Developer).
 - UX/UI.
-- MERN Stack. -->
+- MERN Stack.
+- HTML, CSS , JAVASCRIPT , REACT , NODE.JS , TYPESCRIPT , PHP , C++ , PYTHON , GIT , GITHUB , VSCODE , POWER SHELL , XAMPP , WINDOWS , LINUX , UBUNTU , DEBIAN.
+-->
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

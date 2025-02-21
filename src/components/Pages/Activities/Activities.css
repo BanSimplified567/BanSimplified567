@@ -1,10 +1,4 @@
-.active {
-  margin: 5rem auto;
-  max-width: 1200px;
-  /* Ensure a maximum width to avoid too wide containers */
-  padding: 0 1rem;
-  /* Add padding for small screens */
-}
+
 
 .activeWelcome {
   display: flex;
@@ -75,6 +69,7 @@
 .activeImage {
   width: 100%;
   max-width: 100%;
+  min-width: 100%;
   height: 100%;
   object-fit: contain;
 }

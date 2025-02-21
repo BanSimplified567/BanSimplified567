@@ -1,9 +1,9 @@
-import Email from '../../Pages/Extra/Email/Email';
-import Footer from '../../Pages/Extra/Footer/Footer';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import './Contact.css';
+import Email from '../../Pages/Extra/Email/Email';
+import Footer from '../../Pages/Extra/Footer/Footer';
 import { ContactCategory, SocialMediaLink } from '../Extra/ContactCategory/ContactCategory';
+import './Contact.css';
 
 const animationProps = {
    initial: { opacity: 0, x: -100 },

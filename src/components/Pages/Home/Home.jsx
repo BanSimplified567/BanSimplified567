@@ -115,6 +115,7 @@ const sections = [
    },
 ];
 const calculateTimeLeft = () => {
+
    const targetDate = new Date('2022-09-10T00:00:00'); // Set target date to September 10, 2022
 
    const now = new Date(); // Get the current date and time
@@ -187,6 +188,8 @@ const Home = () => {
       'Jade Ivan Bringcola Known as BanBan @Aspiring Software-Engineer | Frontend Enthusiast';
    const repeatCount = 10; // Adjust this count to control how many times the text repeats
 
+
+   
    return (
       <>
          <main className="section">
